@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="titlebar_up_height">44dp</dimen>
+    <dimen name="titlebar_down_height">40dp</dimen>
+    
+    <dimen name="titlebar_back_bt_left">5dp</dimen>
+    <dimen name="titlebar_button_width">50dp</dimen>
+    
+    <dimen name="epg_title_view_height">88dp</dimen>
+    
+    <dimen name="remote_round_spin_edge_width">460dp</dimen>
+    <dimen name="remote_round_spin_width">315dp</dimen>
+    
+    
+	<dimen name="remote_button_width">61dp</dimen>
+	
+	<dimen name="home_icon_width">165dp</dimen>
+	<dimen name="home_icon_height">165dp</dimen>
+	<dimen name="home_icon_net_video_height">226dp</dimen>
+	
+	<dimen name="text_size_big">32sp</dimen>
+	<dimen name="text_size_mid">24sp</dimen>
+	<dimen name="text_size_little">18sp</dimen>
+	<dimen name="text_size_smaller">14sp</dimen>
+</resources>

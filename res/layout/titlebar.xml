@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/titlebar_up_height"
+        android:layout_gravity="center"
+        android:background="@drawable/titlebar_color" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/titlebar_back_bt_left"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="@dimen/titlebar_button_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/titlebar_bt_style"
+                android:contentDescription="@null"
+                android:gravity="center"
+                
+                android:scaleType="centerCrop"
+                android:src="@drawable/menu_icon" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingStart="7dp"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/setting_button"
+            android:layout_width="@dimen/titlebar_button_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/icon_setting"
+            android:background="@drawable/titlebar_bt_style"
+            android:contentDescription="@null"
+            android:gravity="center" />
+    </FrameLayout>
+
+   
+
+</LinearLayout>

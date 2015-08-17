@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RDCar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<!-- Google 廣告 -->    
+    <string name="ad_google">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="test">TEST!</string>
+
+    
+    <string-array name="remote_array">
+        <item> basic remote control</item>
+        <item> touch remote control</item>
+        <item> air mouse </item>
+        <item> game handle </item>
+    </string-array>
+
+    <string name="local_media"> local media </string>
+
+    <string-array name="local_media_array">
+        <item> images </item>
+        <item> music </item>
+        <item> video </item>
+        <item> document</item>
+    </string-array>
+
+    <string name="interactive"> interactive </string>
+
+    <string-array name="interactive_array">
+        <item> Live </item>
+        <item> online video </item>
+        <item> video site </item>
+        <item> application install </item>
+        <item> equipment management </item>
+    </string-array>
+    
+    <string name="alert_dialog_success">Saved!</string>
+	<string name="alert_dialog_failed">Failed with error.</string>
+    
+</resources>

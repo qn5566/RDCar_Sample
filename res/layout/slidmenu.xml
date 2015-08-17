@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF2C313F"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp" >
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:contentDescription="@null"
+            android:src="@drawable/menu_user_face" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp" >
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical|left"
+                android:text="日達汽車"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="16dp"
+	                android:layout_height="14dp"
+	                android:layout_gravity="left|center"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_device_tv_ws" />
+
+                <TextView
+                    android:id="@+id/menu_device_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/test"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"
+                    android:singleLine="true" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+	<!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+    </LinearLayout>
+	 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="left"
+                android:text="@string/test"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/menu_group_name" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" >
+            </View>
+
+            <ListView
+                android:id="@+id/remote_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/menu_line"
+                android:dividerHeight="1dp" >
+            </ListView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" >
+            </View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="@string/test"
+                android:textColor="@color/menu_group_name" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" >
+            </View>
+
+            <ListView
+                android:id="@+id/media_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/menu_line"
+                android:dividerHeight="1dp" >
+            </ListView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" >
+            </View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="@string/test"
+                android:textColor="@color/menu_group_name" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" >
+            </View>
+
+            <ListView
+                android:id="@+id/interactive_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/menu_line"
+                android:dividerHeight="1dp" >
+            </ListView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

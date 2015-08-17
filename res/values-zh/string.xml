@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">日達汽車</string>
+    <string name="test">TEST!</string>
+    <string name="menu_remote">汽車專區</string>
+    <string name="menu_media">加值服務</string>
+    <string name="menu_interactive">日達汽車</string>
+
+    <string-array name="remote_array">
+        <item> 愛車狀況</item>
+        <item> 行車紀錄</item>
+        <item> 保養紀錄</item>
+        <item> game handle </item>
+    </string-array>
+
+    <string name="local_media"> local media </string>
+
+    <string-array name="local_media_array">
+        <item> 里程數紀錄 </item>
+        <item> 油費計算 </item>
+        <item> 維修資訊 </item>
+        <item> document</item>
+    </string-array>
+
+    <string name="interactive"> interactive </string>
+
+    <string-array name="interactive_array">
+        <item> 我們在哪 </item>
+        <item> 聯絡我們 </item>
+        <item> video site </item>
+        <item> application install </item>
+        <item> equipment management </item>
+    </string-array>
+    
+    <string name="alert_dialog_success">Parse成功</string>
+	<string name="alert_dialog_failed">Parse失敗</string>
+
+</resources>

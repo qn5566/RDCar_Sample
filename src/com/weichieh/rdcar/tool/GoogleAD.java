@@ -25,6 +25,7 @@ public class GoogleAD {
 		adView.setAdUnitId(mActivity.getResources().getString(
 				R.string.ad_google));
 		adView.setAdSize(AdSize.BANNER);
+//		adView.setAd
 
 		// 假設 LinearLayout 已獲得 android:id="@+id/mainLayout" 屬性，
 		// 查詢 LinearLayout。
@@ -35,7 +36,7 @@ public class GoogleAD {
 
 		// 啟動一般請求。
 		AdRequest adRequest = new AdRequest.Builder().build();
-
+		
 		// 以廣告請求載入 adView。
 		adView.loadAd(adRequest);
 	}

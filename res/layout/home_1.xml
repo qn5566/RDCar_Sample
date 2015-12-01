@@ -27,13 +27,13 @@
                         android:id="@+id/remote_control"
                         android:layout_width="@dimen/home_icon_width"
                         android:layout_height="@dimen/home_icon_height"
-                        android:background="@drawable/test01" />
+                        android:background="@drawable/pic_1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom|center"
-                        android:text="@string/test"
+                        android:text="@string/car_1"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </FrameLayout>
@@ -49,17 +49,38 @@
                         android:id="@+id/doc_send"
                         android:layout_width="@dimen/home_icon_width"
                         android:layout_height="@dimen/home_icon_height"
-                        android:background="@drawable/test01" />
+                        android:background="@drawable/pic_2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom|center"
-                        android:text="@string/test"
+                        android:text="@string/car_2"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </FrameLayout>
 
+                
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+
+                    <ImageButton
+                        android:id="@+id/net_video"
+                        android:layout_width="@dimen/home_icon_width"
+                        android:layout_height="@dimen/home_icon_net_video_height"
+                        android:background="@drawable/pic_6"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:text="@string/car_6"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
                 
             </LinearLayout>
 
@@ -72,20 +93,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:visibility="gone" >
+                     >
 
                     <ImageButton
                         android:id="@+id/web_site"
                         android:layout_width="@dimen/home_icon_width"
                         android:layout_height="@dimen/home_icon_height"
-                        android:background="@drawable/test01"
+                        android:background="@drawable/pic_3"
                         android:scaleType="center" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom|center"
-                        android:text="@string/test"
+                        android:text="@string/car_3"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </FrameLayout>
@@ -99,13 +120,13 @@
                         android:id="@+id/app_setup"
                         android:layout_width="@dimen/home_icon_width"
                         android:layout_height="@dimen/home_icon_height"
-                        android:background="@drawable/test01" />
+                        android:background="@drawable/pic_4" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom|center"
-                        android:text="@string/test"
+                        android:text="@string/car_4"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </FrameLayout>
@@ -119,16 +140,58 @@
                         android:id="@+id/plus_app"
                         android:layout_width="@dimen/home_icon_width"
                         android:layout_height="@dimen/home_icon_height"
-                        android:background="@drawable/test01" />
+                        android:background="@drawable/pic_5" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom|center"
-                        android:text="@string/test"
+                        android:text="@string/car_5"
                         android:textColor="@color/white"
                         android:textSize="20sp"
-                        android:visibility="gone" />
+                         />
+                </FrameLayout>
+                 <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+
+                    <ImageButton
+                        android:id="@+id/live_liantong"
+                        android:layout_width="@dimen/home_icon_width"
+                        android:layout_height="@dimen/home_icon_height"
+                        android:background="@drawable/pic_7" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:text="@string/car_7"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" 
+                        
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+
+                    <ImageButton
+                        android:id="@+id/local_photo"
+                        android:layout_width="@dimen/home_icon_width"
+                        android:layout_height="@dimen/home_icon_height"
+                        android:background="@drawable/bg"
+                        android:scaleType="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:text="@string/car_8"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
                 </FrameLayout>
             </LinearLayout>
         </LinearLayout>

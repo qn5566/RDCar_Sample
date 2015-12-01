@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 從不透明到透明 重覆執行 -->
+    <alpha
+        android:duration="1000"
+        android:repeatCount="-1"
+        android:fromAlpha="0.5"
+        android:toAlpha="1.0" />
+ 
+
+</set>

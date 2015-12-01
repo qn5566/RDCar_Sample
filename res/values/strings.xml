@@ -5,9 +5,20 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 	<!-- Google 廣告 -->    
-    <string name="ad_google">ca-app-pub-3940256099942544/6300978111</string>
+    <!--<string name="ad_google">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="ad_google">ca-app-pub-7078299835326549/6816258910</string>
     <string name="test">TEST!</string>
-
+    
+	<string name="seclayout">RDCar!!</string>
+    
+    <string name="car_1">愛車狀況</string>
+    <string name="car_2">行車紀錄</string>
+    <string name="car_3">保養紀錄</string>
+    <string name="car_4">里程數紀錄</string>
+    <string name="car_5">油費計算</string>
+    <string name="car_6">維修資訊</string>
+    <string name="car_7">我們在哪</string> 
+    <string name="car_8">聯絡我們</string>
     
     <string-array name="remote_array">
         <item> basic remote control</item>
@@ -38,4 +49,7 @@
     <string name="alert_dialog_success">Saved!</string>
 	<string name="alert_dialog_failed">Failed with error.</string>
     
+	<!-- MAP -->
+	<string name="nowlocation">我在這裡</string>
+	<string name="navigator">導航到日達汽車</string>
 </resources>

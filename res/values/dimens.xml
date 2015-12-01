@@ -18,12 +18,14 @@
     
 	<dimen name="remote_button_width">61dp</dimen>
 	
-	<dimen name="home_icon_width">165dp</dimen>
-	<dimen name="home_icon_height">165dp</dimen>
+	<dimen name="home_icon_width">145dp</dimen>
+	<dimen name="home_icon_height">145dp</dimen>
 	<dimen name="home_icon_net_video_height">226dp</dimen>
 	
 	<dimen name="text_size_big">32sp</dimen>
 	<dimen name="text_size_mid">24sp</dimen>
 	<dimen name="text_size_little">18sp</dimen>
 	<dimen name="text_size_smaller">14sp</dimen>
+	
+	<dimen name="top_view">50sp</dimen>
 </resources>

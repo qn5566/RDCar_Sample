@@ -6,6 +6,18 @@
     <string name="menu_remote">汽車專區</string>
     <string name="menu_media">加值服務</string>
     <string name="menu_interactive">日達汽車</string>
+    
+    <string name="seclayout">歡迎光臨</string>
+    
+    <!--  -->
+    <string name="car_1">愛車狀況</string>
+    <string name="car_2">行車紀錄</string>
+    <string name="car_3">保養紀錄</string>
+    <string name="car_4">里程數紀錄</string>
+    <string name="car_5">油費計算</string>
+    <string name="car_6">維修資訊</string>
+    <string name="car_7">我們在哪</string> 
+    <string name="car_8">聯絡我們</string>
 
     <string-array name="remote_array">
         <item> 愛車狀況</item>
